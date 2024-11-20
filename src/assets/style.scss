@@ -15,10 +15,49 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.mt {
+  &-1 {
+    margin-top: 10px;
+  }
+
+  &-2 {
+    margin-top: 20px;
+  }
+
+  &-3 {
+    margin-top: 30px;
+  }
+}
+
 .container {
   width: 71%;
   margin: 0 auto;
   min-width: 1000px;
+  padding: 60px 0;
+
+  h2.title {
+    font-size: 32px;
+  }
+}
+
+.form-group {
+  input,
+  select,
+  textarea {
+    display: block;
+  }
+
+  label {
+    font-weight: 500;
+  }
+}
+
+.form-input {
+  width: 339px;
+  height: 39px;
+  background: #fdfdfd;
+  border: 1px solid rgba(#000, 25%);
+  border-radius: 5px;
 }
 
 header {
@@ -102,6 +141,10 @@ header {
   }
 }
 
+.block-margin-bottom {
+  margin-bottom: 128px;
+}
+
 .first-block {
   display: flex;
   justify-content: center;
@@ -152,6 +195,12 @@ header {
         font-size: 15px;
         border: none;
         border-radius: 50%;
+        transition: 0.2s;
+
+        &:hover {
+          cursor: pointer;
+          background: rgb(46, 148, 192);
+        }
       }
     }
 
