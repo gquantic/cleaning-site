@@ -330,9 +330,12 @@ header {
 }
 
 @media (max-width: 600px) {
-  .services-block__item {
-    width: 40% !important;
-    margin-right: 0 !important;
+  .services-block {
+    justify-content: space-between !important;
+    .services-block__item {
+      width: 43% !important;
+      margin-right: 0 !important;
+    }
   }
 
   .wcc-items {
