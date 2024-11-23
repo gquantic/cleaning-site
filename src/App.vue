@@ -9,5 +9,5 @@ import TopHeader from '@/components/TopHeader.vue'
 </template>
 
 <style lang="scss">
-  @import './assets/style.scss';
+@use './assets/style.scss' as *;
 </style>
