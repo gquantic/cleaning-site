@@ -50,7 +50,7 @@ services.value = [
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <circle cx="13.5" cy="13.5" r="13.5" fill="#DF6C2D" />
+              <circle cx="13.5" cy="13.5" r="13.5" fill="#139cd8" />
               <path
                 d="M11 17L18 10"
                 stroke="white"
@@ -98,13 +98,13 @@ services.value = [
     transition: 0.2s;
 
     &:hover {
-      background: #df6c2d;
+      background: #139cd8;
       cursor: pointer;
       color: #fff;
 
       .go {
         background: #fff;
-        color: #df6c2d;
+        color: #139cd8;
       }
 
       svg {
@@ -113,7 +113,7 @@ services.value = [
         }
 
         path {
-          stroke: #df6c2d;
+          stroke: #139cd8;
         }
       }
     }
@@ -141,7 +141,7 @@ services.value = [
     }
 
     .go {
-      background: #df6c2d;
+      background: #139cd8;
       width: fit-content;
       margin-bottom: 0;
       color: #fff;

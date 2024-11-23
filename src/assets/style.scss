@@ -40,6 +40,18 @@ body {
   }
 }
 
+@media (max-width: 1800px) {
+  .container {
+    width: 82%;
+  }
+}
+
+@media (max-width: 1700px) {
+  .container {
+    width: 90%;
+  }
+}
+
 .form-group {
   input,
   select,
