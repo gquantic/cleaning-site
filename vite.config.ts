@@ -7,6 +7,11 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  build: {
+    // Указываем целевую директорию для сборки
+    outDir: 'public_html', // Путь относительно корня проекта
+    emptyOutDir: true, // Очищать папку перед сборкой
+  },
   plugins: [
     vue(),
     vueJsx(),
