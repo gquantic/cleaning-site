@@ -345,3 +345,73 @@ header {
     }
   }
 }
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 35px !important;
+  }
+
+  .container {
+    width: 95% !important;
+    padding: 20px 0 !important;
+  }
+
+  .first-block {
+    p {
+      width: 60% !important;
+      font-size: 20px !important;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    img {
+      width: 100% !important;
+      display: none !important;
+    }
+  }
+
+  .achievements-block {
+    margin-top: 50px !important;
+  }
+
+  .achievements {
+    scale: .9;
+
+    b {
+      font-size: 25px !important;
+    }
+    p {
+      font-size: 17px !important;
+    }
+  }
+
+  .services-block .services-block__item {
+    width: 100% !important;
+  }
+
+  .about-us__items .description__block {
+    width: 100% !important;
+  }
+
+  .about-us-block {
+    img {
+      display: none;
+    }
+
+    .about-us__items .description__block {
+      padding: 15px 0;
+    }
+  }
+
+  .wcc-block .title-block img {
+    margin-top: 0 !important;
+  }
+
+  .steps-img {
+    display: none !important;
+  }
+
+  header {
+    padding: 15px 0px !important;
+  }
+}
